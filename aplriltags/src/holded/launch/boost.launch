@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="holder" type="pub" name="com_pub"  />
+
+<node pkg="holder" type="talker" name="com_talker" output="screen" />
+
+</launch>

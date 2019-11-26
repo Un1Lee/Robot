@@ -1,0 +1,8 @@
+prefix=/home/robot/aplriltags/devel
+
+Name: dji_board
+Description: Description of dji_board
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robot/aplriltags/devel/lib 
+Requires: 

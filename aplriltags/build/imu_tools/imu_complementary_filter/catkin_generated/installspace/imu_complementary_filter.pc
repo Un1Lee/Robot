@@ -1,0 +1,8 @@
+prefix=/home/robot/aplriltags/install
+
+Name: imu_complementary_filter
+Description: Description of imu_complementary_filter
+Version: 1.1.7
+Cflags: -I/home/robot/aplriltags/install/include
+Libs: -L/home/robot/aplriltags/install/lib -lcomplementary_filter
+Requires: message_filters roscpp sensor_msgs std_msgs tf

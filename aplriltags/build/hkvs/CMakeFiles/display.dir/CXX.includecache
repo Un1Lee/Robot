@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robot/aplriltags/src/hkvs/include/CameraParams.h
+PixelType.h
+/home/robot/aplriltags/src/hkvs/include/PixelType.h
+
+/home/robot/aplriltags/src/hkvs/include/MvCameraControl.h
+MvErrorDefine.h
+/home/robot/aplriltags/src/hkvs/include/MvErrorDefine.h
+CameraParams.h
+/home/robot/aplriltags/src/hkvs/include/CameraParams.h
+
+/home/robot/aplriltags/src/hkvs/include/MvErrorDefine.h
+
+/home/robot/aplriltags/src/hkvs/include/PixelType.h
+stdint.h
+-
+
+/home/robot/aplriltags/src/hkvs/src/display.cpp
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+pthread.h
+-
+MvCameraControl.h
+/home/robot/aplriltags/src/hkvs/src/MvCameraControl.h
+

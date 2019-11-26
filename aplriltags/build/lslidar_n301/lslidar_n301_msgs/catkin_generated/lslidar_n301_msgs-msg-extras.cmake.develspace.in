@@ -1,0 +1,2 @@
+set(lslidar_n301_msgs_MESSAGE_FILES "/home/robot/aplriltags/src/lslidar_n301/lslidar_n301_msgs/msg/LslidarN301Packet.msg;/home/robot/aplriltags/src/lslidar_n301/lslidar_n301_msgs/msg/LslidarN301Point.msg;/home/robot/aplriltags/src/lslidar_n301/lslidar_n301_msgs/msg/LslidarN301Scan.msg;/home/robot/aplriltags/src/lslidar_n301/lslidar_n301_msgs/msg/LslidarN301Sweep.msg")
+set(lslidar_n301_msgs_SERVICE_FILES "")

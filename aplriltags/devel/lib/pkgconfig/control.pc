@@ -1,0 +1,8 @@
+prefix=/home/robot/aplriltags/devel
+
+Name: control
+Description: Description of control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robot/aplriltags/devel/lib 
+Requires: 

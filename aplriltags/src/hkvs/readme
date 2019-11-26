@@ -1,0 +1,21 @@
+这是一个海康威视工业相机MV-CA016-10UC的package
+如果使用请确保你已经能过正常的运行/opt/MVS/Sample下的某个文件
+并且确保你的ubuntu上安装里opencv
+并且在一个工作空间里编译
+
+<**********************一些说明**********************>
+hkvs_pub可以实时发布图像信息
+hkvs_sub用于订阅
+
+如果想要尝试/opt/MVS/Sample中的其他sample时出现×××未定义引用
+1.打开相应文件的makefile
+2.把 g++ -g -o Display Display.cpp -I../../../include -Wl,-rpath=$(MVCAM_COMMON_RUNENV)/64 -L$(MVCAM_COMMON_RUNENV)/64 后面的东西复制到Cmake的target_link_libraries(filename 后面
+
+比如：
+g++ -g -o Display Display.cpp -I../../../include -Wl,-rpath=$(MVCAM_COMMON_RUNENV)/64 -L$(MVCAM_COMMON_RUNENV)/64 -lX11 -lMvCameraControl  
+
+target_link_libraries(hkvs_pub -lX11 -lMvCameraControl
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBRARIES}
+)
+	

@@ -1,0 +1,2 @@
+apriltags:art_imu:control:dji_board:hkvs:holded:imu_tools/imu_complementary_filter:imu_tools/imu_filter_madgwick:imu_tools/imu_tools:imu_tools/rviz_imu_plugin:lslidar_n301/lslidar_n301:lslidar_n301/lslidar_n301_decoder:lslidar_n301/lslidar_n301_driver:lslidar_n301/lslidar_n301_msgs:openslam_gmapping:rf2o_laser_odometry-master:robot_localization:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/robot/aplriltags/devel -DCMAKE_INSTALL_PREFIX=/home/robot/aplriltags/install -G Unix Makefiles

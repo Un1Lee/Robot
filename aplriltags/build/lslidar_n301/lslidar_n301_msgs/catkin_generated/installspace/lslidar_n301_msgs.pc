@@ -1,0 +1,8 @@
+prefix=/home/robot/aplriltags/install
+
+Name: lslidar_n301_msgs
+Description: Description of lslidar_n301_msgs
+Version: 1.2.0
+Cflags: -I/home/robot/aplriltags/install/include
+Libs: -L/home/robot/aplriltags/install/lib 
+Requires: message_runtime std_msgs
